@@ -41,3 +41,4 @@ elif hours<11 and min<=30 and time[-2].lower()=='p':
     if hours>12:
         hours-=12
     print('Next Day\n', hours,':', min, 'AM')
+print('its different')
